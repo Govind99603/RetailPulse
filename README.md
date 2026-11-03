@@ -45,33 +45,6 @@ I built RetailPulse as an end-to-end project, not just a notebook with charts. T
 | 🔮 Forecast Lab | Demand forecasting exploration |
 | 🧪 Analytics Workbench | Additional analytical views and tools |
 
-## 📊 A few visuals from the notebook
-
-The charts below are exported from the project notebook outputs. They provide a quick look at the analysis behind RetailPulse.
-
-### Revenue over time
-![Monthly revenue trend](README_Assets/monthly-revenue-trend.png)
-
-### Countries contributing the most revenue
-![Top countries by revenue](README_Assets/top-countries-revenue.png)
-
-### Customer segments
-![Customer RFM segments](README_Assets/customer-rfm-segments.png)
-
-### Quantity and unit-price distributions
-![Quantity and unit price distributions](README_Assets/quantity-price-distribution.png)
-
-### Daily demand baseline
-![Daily demand baseline forecast](README_Assets/daily-demand-baseline-forecast.png)
-
-### Prophet forecast
-![Prophet forecast](README_Assets/prophet-forecast.png)
-
-### Product demand view
-![Product average daily demand](README_Assets/product-average-daily-demand.png)
-
-### Churn-risk proxy evaluation
-![Churn-risk proxy evaluation](README_Assets/churn-risk-proxy-evaluation.png)
 
 ## 🧰 Tech stack
 
