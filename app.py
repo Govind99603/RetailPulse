@@ -79,6 +79,7 @@ with st.sidebar:
     st.caption(f"SKUs · {inventory['StockCode'].nunique():,}")
     st.caption("Prototype analytics · local runtime")
     st.markdown('<span class="pill">STREAMLIT</span><span class="pill">PLOTLY</span>',unsafe_allow_html=True)
+    st.markdown('<div style="margin-top:1.1rem;padding:12px 0;border-top:1px solid #203049;color:#91a0b8;font-size:.76rem">DESIGNED & BUILT BY<br><strong style="color:#e9eef8;letter-spacing:.04em">GOVIND SUTHAR</strong></div>',unsafe_allow_html=True)
 
 def header(title,subtitle,tag="RETAIL ANALYTICS"):
     st.markdown(f'<div class="hero"><div class="eyebrow">{tag}</div><h1>{title}</h1><div class="sub">{subtitle}</div></div>',unsafe_allow_html=True)
@@ -240,4 +241,4 @@ else:
     st.download_button("Download filtered CSV",df.to_csv(index=False).encode("utf-8"),file_name="retailpulse_filtered_export.csv",mime="text/csv")
 
 st.divider()
-st.caption("RETAILPULSE · Retail Intelligence Interface | Analytical prototype | Validate derived proxies and assumptions before business decisions.")
+st.markdown('<div style="text-align:center;padding:16px 0 6px;color:#91a0b8;font-size:.78rem;letter-spacing:.04em">RETAILPULSE · RETAIL INTELLIGENCE INTERFACE<br><span style="color:#52e0d0">DESIGNED & BUILT BY GOVIND SUTHAR</span><br><span style="font-size:.68rem">ANALYTICAL PROTOTYPE · VALIDATE DERIVED PROXIES AND ASSUMPTIONS BEFORE BUSINESS DECISIONS</span></div>',unsafe_allow_html=True)

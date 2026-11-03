@@ -40,3 +40,8 @@ docker run --rm -p 8501:8501 retailpulse
 ```bash
 pytest -q
 ```
+
+
+## Creator
+
+**RetailPulse** was designed and built by **Govind Suthar**.
